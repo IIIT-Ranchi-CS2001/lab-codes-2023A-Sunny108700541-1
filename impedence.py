@@ -1,0 +1,13 @@
+a =int(input("enter first int part:"))
+b =int(input("enter first img part:"))
+z1 = complex(a,b)
+
+c =int(input("enter second int part:"))
+d =int(input("enter second img part:"))
+z2 =complex(c,d)
+impedence=(z1*z2)/(z1+z2)
+print(impedence)
+print("real part is->:")
+print(impedence.real)
+print("imaginary part is->:")
+print(impedence.imag)
