@@ -1,3 +1,5 @@
+
+# SET ->4  LAB EXAM PRACTICLE
 import pandas as pd
 import numpy as np
 a=pd.read_csv("C:/Users/my lenovo/Downloads/AQI_Data.csv")
